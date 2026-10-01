@@ -1,0 +1,143 @@
+{
+  "format": "olist-seller-churn-logreg-v1",
+  "positive_class": 1,
+  "features": [
+    "total_orders",
+    "days_since_last_order",
+    "avg_gap_antar_order",
+    "total_active_order_days",
+    "unique_products",
+    "total_product_price",
+    "min_product_price",
+    "max_payment_value",
+    "max_payment_installments",
+    "avg_product_name_length",
+    "unique_product_categories",
+    "min_seller_customer_distance_km",
+    "median_seller_customer_distance_km",
+    "max_seller_customer_distance_km"
+  ],
+  "imputer_median": [
+    8.0,
+    54.23296296296296,
+    13.999658564814816,
+    7.0,
+    4.0,
+    965.9,
+    41.795,
+    272.18,
+    8.0,
+    48.0,
+    1.0,
+    76.01299862053797,
+    430.36252864495566,
+    1504.8143593655902
+  ],
+  "robust_center": [
+    8.0,
+    54.23296296296296,
+    13.999658564814816,
+    7.0,
+    4.0,
+    965.9,
+    41.795,
+    272.18,
+    8.0,
+    48.0,
+    1.0,
+    76.01299862053797,
+    430.36252864495566,
+    1504.8143593655902
+  ],
+  "robust_scale": [
+    23.0,
+    197.83811342592594,
+    17.146285080104775,
+    19.0,
+    9.0,
+    3497.975,
+    73.62,
+    391.36749999999995,
+    6.0,
+    11.615734265734268,
+    1.0,
+    310.6403986771508,
+    335.23312439592144,
+    1579.8144239619132
+  ],
+  "coefficients": [
+    -0.07369103780199061,
+    0.2730522973281167,
+    0.10965532840914785,
+    -0.08650750620529629,
+    -0.08628560483241988,
+    -0.014789970728509955,
+    0.06553117688936415,
+    -0.031841216336445134,
+    -0.05954213100545389,
+    -0.057961054116895325,
+    -0.07579837544831097,
+    0.0957974658121736,
+    0.04692887043897832,
+    -0.056363690910760565
+  ],
+  "intercept": 0.8322521253583077,
+  "bounds": {
+    "total_orders": {
+      "min": 1.0,
+      "max": 1778.0
+    },
+    "days_since_last_order": {
+      "min": 1.4419907407407409,
+      "max": 671.1691087962963
+    },
+    "avg_gap_antar_order": {
+      "min": 0.0,
+      "max": 403.0042824074074
+    },
+    "total_active_order_days": {
+      "min": 1.0,
+      "max": 375.0
+    },
+    "unique_products": {
+      "min": 1.0,
+      "max": 395.0
+    },
+    "total_product_price": {
+      "min": 8.25,
+      "max": 222491.73
+    },
+    "min_product_price": {
+      "min": 0.85,
+      "max": 6735.0
+    },
+    "max_payment_value": {
+      "min": 16.36,
+      "max": 13664.08
+    },
+    "max_payment_installments": {
+      "min": 1.0,
+      "max": 24.0
+    },
+    "avg_product_name_length": {
+      "min": 11.4,
+      "max": 63.0
+    },
+    "unique_product_categories": {
+      "min": 0.0,
+      "max": 27.0
+    },
+    "min_seller_customer_distance_km": {
+      "min": 0.0,
+      "max": 2725.5177803530664
+    },
+    "median_seller_customer_distance_km": {
+      "min": 2.960344978628199,
+      "max": 2725.5177803530664
+    },
+    "max_seller_customer_distance_km": {
+      "min": 2.960344978628199,
+      "max": 3398.5482201142563
+    }
+  }
+}
